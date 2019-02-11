@@ -1,0 +1,35 @@
+body {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+}
+
+/* When writing CSS classes it is VERY important that you use hyphen delimited strings (square-div and NOT squareDiv) */
+/* Addtionally, you should know what the class does just by looking at the name (the name should be DESCRIPTIVE) */
+/* When thinking about sizing elements on your page, there are many different units you can use = https://www.w3schools.com/cssref/css_units.asp */
+
+.tall-div {
+	width: 33vw;
+}
+
+div {
+	width: 33vw;
+	display: block;
+}
+
+/* When possible, organize CSS classes in alphabetical order */
+.blue {
+	background-color: #89cff0;
+	height: 100vh;
+}
+
+.green {
+	background-color: #7CFC00;
+	height: 50vh;
+	
+}
+
+.pink {
+	background-color: #FFC0CB;
+	height: 50vh;
+}
